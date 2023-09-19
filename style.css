@@ -1,0 +1,22 @@
+canvas{
+    border: 2px solid black;
+}
+
+body{
+    text-align: center;
+}
+
+#corEscolhida {
+    width: 50px; 
+    height: 50px; 
+    border: none; 
+    border-radius: 50%; 
+    cursor: pointer; 
+    outline: none; 
+    transition: transform 0.5s; 
+  }
+  
+  #corEscolhida:hover {
+    transform: scale(1.1); 
+  }
+  
